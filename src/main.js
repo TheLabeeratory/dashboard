@@ -6,9 +6,11 @@ import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import ToggleButton from 'vue-js-toggle-button'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+Vue.use(ToggleButton)
 
 /* eslint-disable no-new */
 new Vue({
